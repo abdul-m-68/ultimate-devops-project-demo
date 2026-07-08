@@ -18,7 +18,7 @@ COPY . .
 
 RUN go build -o product-catalog .
 
-####################################
+#####################################
 
 FROM alpine AS release
 
